@@ -1,4 +1,4 @@
-# GraphyFlow: A High-Level Synthesis Framework for Graph Computing on FPGAs
+# GraphyFlow: A Flexible High-Level Synthesis Framework for Efficient Graph Computing on FPGAs
 
 ## 1\. Overview
 
