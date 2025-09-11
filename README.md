@@ -16,11 +16,6 @@ graph TD
     B{"<b>Dataflow IR (DFIR)</b><br/>An intermediate representation that captures the<br>algorithm's dataflow, decoupling it from<br>the hardware architecture."} --> C;
     C["<b>Backend Compiler</b><br/>Systematically transforms the DFIR into deeply<br>pipelined, streaming HLS C++ for the kernel<br>and generates the host application."] --> D;
     D(("<b>Generated Vitis Project</b><br/>A complete, self-verifying project containing<br>kernel/host source (C++), build scripts,<br>and a CPU golden model for verification."));
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#9f9,stroke:#333,stroke-width:2px
-    style D fill:#ff9,stroke:#333,stroke-width:2px
 ```
 
 ## 3\. Prerequisites
